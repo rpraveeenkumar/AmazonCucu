@@ -1,4 +1,4 @@
-package org.property_file;
+package org.Amazon.Properties;
 
 import java.io.File;
 import java.io.FileInputStream;

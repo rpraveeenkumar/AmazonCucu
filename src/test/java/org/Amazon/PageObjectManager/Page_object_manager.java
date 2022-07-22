@@ -1,9 +1,9 @@
-package org.page_object_manager;
+package org.Amazon.PageObjectManager;
 
 import org.openqa.selenium.WebDriver;
-import org.pom.Cart_TakingSnip;
-import org.pom.Choosing_the_product;
-import org.pom.Login_page;
+import org.Amazon.PageObjectModel.Cart_TakingSnip;
+import org.Amazon.PageObjectModel.Choosing_the_product;
+import org.Amazon.PageObjectModel.Login_page;
 
 public class Page_object_manager {
 	

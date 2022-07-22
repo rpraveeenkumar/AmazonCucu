@@ -1,8 +1,9 @@
-package com.Maven_project_training;
+package org.Amazon.Runner;
 
 import org.openqa.selenium.WebDriver;
-import org.page_object_manager.Page_object_manager;
-import org.property_file.Configuration_reader;
+import org.Amazon.BaseClass.BaseClass;
+import org.Amazon.PageObjectManager.Page_object_manager;
+import org.Amazon.Properties.Configuration_reader;
 
 public class Runner_amazon extends BaseClass {
 	

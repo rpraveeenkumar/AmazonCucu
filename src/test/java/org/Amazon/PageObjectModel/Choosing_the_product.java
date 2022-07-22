@@ -1,4 +1,4 @@
-package org.pom;
+package org.Amazon.PageObjectModel;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

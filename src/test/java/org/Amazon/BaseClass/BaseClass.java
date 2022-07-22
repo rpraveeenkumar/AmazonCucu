@@ -1,4 +1,4 @@
-package com.Maven_project_training;
+package org.Amazon.BaseClass;
 
 import java.awt.AWTException;
 import java.awt.Robot;
@@ -7,7 +7,6 @@ import java.io.File;
 import java.io.IOException;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
-
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
@@ -27,8 +26,6 @@ public class BaseClass {
 			driver.manage().window().maximize();
 			return driver;
 		}
-		
-		
 	
 	public static void launchUrl(String url) {
 		driver.get(url);
@@ -81,3 +78,4 @@ public class BaseClass {
 		return driver;
 	}
 }
+
